@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github</title>
+    <title>Form and Input feild</title>
+    <style>
+        level{
+            display: block;
+            margin-bottom: 10px;
+        }
+        textarea{
+            resize: none;
+        }
+    </style>
 </head>
 <body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form
+            </h2>
+            <form>
+                <level for="name">Your Name:
+                    <input type="text" id="name" placeholder="Enter your name">
+                </level>
+                <level for="">Your Email:
+                    <input type="email" id="email" placeholder="Enter your email">
+                </level>
+                <level for="phone">Your phone:
+                    <input type="text" id="phone" placeholder="Your phone number">
+                </level>
+                <fieldset>
+                    <legend>
+                        Pick Your Pitha
+                    </legend>
+                    <level for="chitoi">
+                        <input type="radio" name="o"id="chitoi">Chitoi
+                    </level>
+                    <level for="vapa">
+                        <input type="radio" name="o"id="vapa">Vapa
+                    </level>
+                    <level for="puri">
+                        <input type="radio"name="o"id="puri">Puri
+                    </level>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Choose your vorta
+                    </legend>
+                    <level for="sorisa">
+                        <input type="checkbox" name="a" id="sorisa">Sorisa
+                    </level>
+                    <level for="sutki">
+                        <input type="checkbox" name="a" id="sutki">Sutki
+                    </level>
+                </fieldset>
+                <fieldset>
+                    <legend>Special instraction</legend>
+                    <textarea name="" id="" cols="30" rows="2"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
     
 </body>
 </html>
